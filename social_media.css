@@ -1,0 +1,39 @@
+.social-media{
+  width:100vw;
+  height:30px;
+  background-color:#FFF;
+  color:#850D23;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.social-media p{
+  margin-left:10px;
+  font-family:var(--font-global);
+}
+
+.social-media ul{
+  display: flex;
+  
+}
+.social-media ul li{
+  list-style:none;
+  cursor: pointer;
+  margin:10px;
+  padding:10px;
+  font-size:20px;
+  transition:ease-in-out 500ms;
+  
+}
+.social-media ul li:hover{
+  transform: scale(1.1);
+  transition:ease-in-out 500ms;
+}
+
+@media (max-width: 780px)
+{
+  .social-media ul{
+    display:none;
+    
+  }
+}
